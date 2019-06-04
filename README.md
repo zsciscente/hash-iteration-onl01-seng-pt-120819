@@ -196,7 +196,7 @@ ready to move on!
 **BONUS:** In `spec/birthday_spec.rb`, one test is _pending_, meaning it is not
 currently counting towards lab completion. After passing all the other tests, if
 you would like to challenge yourself a bit more, go into `spec/birthday_spec.rb`
-and remove _pending_ from the beginning of the second test. Run `learn` to see
+and change _xit_ to _it_ in the beginning of the second test. Run `learn` to see
 that the test is now failing rather than listed as pending, and use the test
 message to create a new method, `age_appropriate_birthday`.
 
