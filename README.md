@@ -121,7 +121,12 @@ end
 winner
 ```
 
-If you run your tests now, you should be passing.
+If you run your tests now, the first test should now be passing.
+
+```text
+#select_winner
+  returns the name of the passenger who stays in suite a and whose name begins with the letter 'A'
+```
 
 ### A Closer Look
 
@@ -156,9 +161,9 @@ associated ages:
 
 ```ruby
 birthday_kids = {
-	"Timmy" => 9,
-	"Sarah" => 6,
-	"Amanda" => 27
+  "Timmy" => 9,
+  "Sarah" => 6,
+  "Amanda" => 27
 }
 ```
 
